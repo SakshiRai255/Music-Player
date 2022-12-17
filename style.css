@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(192, 141, 192);
+}
+.main-div{
+    width: 300px;
+    margin: 50px auto;
+}
+.wrapper{
+    height: 420px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 20px rgb(0,0,0,0.4);
+    background-color: #fff;
+}
+.music-name{
+    padding-top: 8px;
+}
+.music-img{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+
+}
+.music-img img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.music-controles{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.music-icons{
+    margin: 0px 40px;
+}
+#play, #pause{
+box-shadow: 0 0 20px rgb(0,0,0,0.4);
+background-color: #000;
+padding: 12px 15px;
+border-radius: 50%;
+color: #fff;
+cursor: pointer;
+}
+#play:hover, #pause:hover{
+    background-color: rgb(23, 24, 24);
+    color: #fff;
+}
+ #pause{
+    display: none;
+}
+#previous,#next{
+    padding: 12px 0px;
+    cursor: pointer;
+}
+#previous:hover,#next:hover{
+    color: rgb(55, 56, 56);
+}
+
+.animation{
+    animation:  rotatePlayer 3s linear infinite;
+}
+@keyframes rotatePlayer {
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
