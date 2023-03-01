@@ -1,4 +1,4 @@
-### This is Music Player
+### This is Music Player you can start the music and you can stop the music.
 
 Stack Used:-
 -   HTML
